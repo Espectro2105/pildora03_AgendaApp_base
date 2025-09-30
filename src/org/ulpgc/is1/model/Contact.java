@@ -27,4 +27,7 @@ public abstract class Contact {
 
     public abstract String getName();
 
+    public abstract void add(Contact contacts);
+
+    public abstract void remove(Contact contacts);
 }
